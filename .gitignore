@@ -1,0 +1,20 @@
+# ── 개인정보: 팀원 얼굴 사진과 그로부터 만든 파일은 절대 올리지 않음
+dataset/*
+!dataset/.gitkeep
+# (dataset 폴더 구조만 올리고 안의 사진·이름 폴더는 제외)
+eval/
+output/
+model/
+# (model/에는 팀원 얼굴 특징값(임베딩)이 들어 있어 사진과 같은 수준의 개인정보)
+
+# ── 파이썬 / 환경
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# ── 기타
+.gradio/
+*.log
+.DS_Store
+Thumbs.db
